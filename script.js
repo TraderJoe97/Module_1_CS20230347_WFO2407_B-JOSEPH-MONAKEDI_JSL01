@@ -5,7 +5,7 @@ function validateSyntax() {
 
         // Check if input starts with 'pet_' and followed by alphanumeric characters
     if (regex.test(input)) {
-        result = "valid Syntax 🟢"
+        result = "Valid Syntax 🟢"
     } else {
         result = "Invalid Syntax 🔴"
     }
